@@ -1,0 +1,179 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	width: 1200px;
+	margin: auto;
+	font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+	background-color: #1f4753;
+	color: #A7FEFF;
+}
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+header h1 {
+	font-size: 250%;
+	border: 2px solid red;
+	text-align: center;
+}
+
+a {
+	color: #A7FEFF;
+	text-decoration: none;
+}
+
+#form-login {
+	text-align: center;
+	padding: 7px 7px 15px 7px;
+}
+
+#login-notification {
+	text-align: center;
+}
+
+#teacher-home h3 {
+	text-align: right;
+}
+
+#welcome-message {
+	text-align: center;
+	font-size: 1.1em;
+	color: white;
+}
+
+#welcome-message h4 {
+	text-decoration: underline;
+}
+
+table {
+	margin: auto;
+}
+
+table th {
+	border-style: solid;
+	border-width: thin;
+	border-collapse: collapse;
+	background-color: #b2b2b2;
+	text-align: center;
+}
+
+table td {
+	border-style: solid;
+	border-width: thin;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#array-student th, #array-student td {
+	font-size: 1.3em;
+}
+
+footer {
+	border: 1px solid yellow;
+	text-align: center;
+	margin-top: 10px;
+}
+
+nav {
+	text-align: center;
+	border-bottom: 5px double white;
+	margin-bottom: 20px;
+}
+
+#level-choice {
+	text-align: center;
+	margin: auto;
+	width: 800px;
+}
+
+#level-choice a {
+	font-size: 1.5em;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#level-choice a:hover {
+	background-color: grey;
+}
+
+nav  ul, ul {
+	list-style-type: none;
+}
+
+nav li, li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 0px 10px 0px 10px;
+	font-size: 1.2em;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+header a {
+	text-decoration: none;
+}
+
+#form-go {
+	display: inline-block;
+	text-align: right;
+	margin: 0px 20px 0px 20px;
+}
+
+#form-previous {
+	display: inline-block;
+	text-align: left;
+}
+
+#form-next {
+	display: inline-block;
+	text-align: right;
+}
+
+#h2-form {
+	display: inline;
+}
+
+button a {
+	color: red;
+	text-decoration: none;
+}
+
+#question-choice {
+	text-align: center;
+}
+
+#question-choice li {
+	display: inline-block;
+	border: 1px solid white;
+	margin: 2px 4px 2px 4px;
+	padding: 2px 4px 2px 4px;
+}
+
+#form-edition, #initial-state {
+	width: 800px;
+	margin: auto;
+}
+
+#welcome-message {
+	width: 900px;
+	margin: auto;
+}
+
+#show-student {
+	margin: auto;
+	text-align: center;
+}
+
+#exercice {
+	width: 900px;
+	margin: auto;
+}
